@@ -1,0 +1,25 @@
+
+body {
+    margin: 0;
+}
+h1 {
+    margin-top: 0;
+}
+
+.Gornji_dio {
+    height: 200px;
+    width: 200px;
+}
+.Srednji_dio{
+    background-color: #FD841F;
+    height: 200px;
+    width: 200px;
+
+}
+
+.Donji_dio {
+    background-color: #3E6D9C; 
+    height: 200px;
+    width: 200px;
+}
+
