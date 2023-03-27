@@ -1,14 +1,23 @@
 
 body {
     margin: 0;
+    text-align: center;
+    font-family: great vibes;
+    font-size: 0.7cm;
+    color: #001253;
+}
+
+p {
+    font-size: larger;
+
 }
 h1 {
-    margin-top: 0;
+    margin-top: 0;    
 }
 
 .Gornji_dio {
-    height: 200px;
-    width: 200px;
+    
+    background-color: #E14d2a;
 }
 .Srednji_dio{
     background-color: #FD841F;
@@ -22,4 +31,18 @@ h1 {
     height: 200px;
     width: 200px;
 }
+.Gornje_droge {
+    position: absolute;
+    right: 250px;
+    padding: 20px;
 
+}
+
+
+.Donje_droge {
+    position: absolute;
+    left: 260px;
+    top: 60px;
+
+
+}
