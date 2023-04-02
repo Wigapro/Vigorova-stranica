@@ -1,48 +1,158 @@
-
 body {
-    margin: 0;
-    text-align: center;
-    font-family: great vibes;
-    font-size: 0.7cm;
-    color: #001253;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+
+  color: #001253;
+}
+
+hr {
+  border: dotted;
+  border-top: 1px;
+  width: 20%;
+  color: #3e6d9c;
+  border-width: 20px;
+  margin: 40px auto;
+}
+
+.Linkovi {
+  color: #fd841f;
+  display: inline-block;
+  margin: 10px;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+a:hover {
+  color: aliceblue;
+}
+
+h1 {
+  margin: 0;
+
+  font-size: 90px;
+}
+
+h2 {
+  margin: 10px 0px;
+  font-size: 2.5rem;
+  font-family: great vibes;
+  font-weight: normal;
+}
+
+h3 {
+  margin: 0;
+  color: #3e6d9c;
+  font-size: 2.5rem;
+  padding: 10px;
+}
+
+em {
+  font-size: 1.5rem;
+}
+
+h4 {
+  padding-top: 20px;
+  font-size: 1.5rem;
+  margin-top: 10px;
 }
 
 p {
-    font-size: larger;
-
+  text-align: left;
+  line-height: 1.5;
+  font-size: 1.2rem;
 }
-h1 {
-    margin-top: 0;    
+
+.kraj {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-size: 1rem;
 }
 
 .Gornji_dio {
-    
-    background-color: #E14d2a;
+  padding: 20px;
+  background-color: #e14d2a;
 }
-.Srednji_dio{
-    background-color: #FD841F;
-    height: 200px;
-    width: 200px;
 
+.Srednji_dio {
+  background-color: #fd841f;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+
+.iskustvo {
+  border-radius: 100%;
+  width: 10%;
+  display: inline;
+  align-items: center;
+}
+
+.pharma {
+  width: 20%;
+  border-radius: 10%;
+  float: left;
+  margin-right: 20px;
+}
+
+.škola {
+  width: 35%;
+  border-radius: 50%;
+  float: right;
 }
 
 .Donji_dio {
-    background-color: #3E6D9C; 
-    height: 200px;
-    width: 200px;
+  display: block;
+  align-items: last baseline;
+  justify-content: center;
+  background-color: #3e6d9c;
+  padding-top: 5px;
 }
+
 .Gornje_droge {
-    position: absolute;
-    right: 250px;
-    padding: 20px;
-
+  position: absolute;
+  right: 160px;
+  border-radius: 10%;
+  top: 170px;
 }
-
 
 .Donje_droge {
-    position: absolute;
-    left: 260px;
-    top: 60px;
+  position: absolute;
+  left: 160px;
+  top: 170px;
+  border-radius: 10%;
+}
 
+.red_iskustva {
+  width: 50%;
+  display: inline-block;
+}
 
+.btn {
+  display: block;
+  margin: auto;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Georgia;
+  color: #51108d;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
 }
